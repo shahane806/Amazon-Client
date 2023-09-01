@@ -1,0 +1,29 @@
+#Login > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.LoginInputs {
+    max-width: 90%;
+    padding: 15px;
+    border: 1px solid orange;
+    margin-top: 10px;
+}
+
+.LoginInputsSubmit{
+    background-color: rgb(251, 194, 89);
+    color: white;
+    border: 1px solid orange;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.LoginInputsSubmit:hover{
+    background-color: rgb(246, 177, 49);
+    border: 1px solid rgb(246, 177, 49);
+}
+.LoginIcon{
+    color: white;
+    margin-left: 10px;
+}

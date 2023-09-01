@@ -1,0 +1,43 @@
+.shoppingHeading {
+  margin: auto;
+}
+#Product {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid rgb(212, 223, 232);
+  padding: 5px;
+  margin-bottom: 10px;
+  min-height: 500px;
+  min-width: 300px;
+  background-color: white;
+}
+.ProductInfo {
+  word-wrap: normal;
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+}
+.AddToCartButton {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(251, 194, 89);
+  border: 1px solid rgb(251, 194, 89);
+  border-radius: 3px;
+}
+.AddToCartButton:hover {
+  background-color: rgb(246, 177, 49);
+  border: 1px solid rgb(246, 177, 49);
+}
+.ProductImg {
+  width: 200px;
+  height: 200px;
+  margin: 20px 0 40px 0;
+  object-fit: contain;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+}

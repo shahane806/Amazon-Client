@@ -1,0 +1,17 @@
+#ErrorPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgb(114, 114, 112);
+    max-width: 100%;
+    min-height: 100vh;
+    color: white;
+}
+.ErrorLogo>img{
+    object-fit: contain;
+    min-width: 300px;
+    min-height: 300px;
+}

@@ -1,0 +1,26 @@
+#Profile>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+
+  }
+#Profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.profileInputs{
+    width: 100%;
+}
+.radioGender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.radioInput{
+    margin-right: 10px;
+}

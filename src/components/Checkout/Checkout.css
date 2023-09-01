@@ -1,0 +1,25 @@
+.AddToCartButton{
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(251, 194, 89);
+    border: 1px solid rgb(251, 194, 89);
+    border-radius: 3px;
+
+}
+.AddToCartButton:hover{
+    background-color: rgb(246, 177, 49);
+    border: 1px solid rgb(246, 177, 49);
+}
+.subtotal{
+    margin-top: 10px;
+}
+#Checkout{
+    padding: 20px;
+    margin-top: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.314);
+}
+.CheckoutLink{
+    text-decoration: none;
+    color: white;
+}

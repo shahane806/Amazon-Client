@@ -1,0 +1,81 @@
+#Navbar-Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    position: relative;
+}
+.Navbar-Logo{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    max-height: 100px;
+    max-width: 200px;
+}
+.Navbar-Logo>img{
+    object-fit: contain;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.Navbar-SearchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60%;
+}
+.Navbar-SearchBar>input{
+    width: 90%;
+    padding: 5px;
+    border: 1px solid orange;
+}
+.Navbar-SearchBar>button{
+    background-color: rgb(251, 194, 89);
+    color: white;
+    border: 1px solid orange;
+
+}
+.Navbar-SearchBar>button:hover{
+    background-color: rgb(246, 177, 49);
+    border: 1px solid rgb(246, 177, 49);
+
+}
+
+.Navbar-Links{
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.Navbar-Link-Type-One{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.Navbar-Link-Type-One:hover,.Navbar-Link-Type-Two:hover{
+    color: rgb(230, 229, 229);
+    cursor: pointer;
+}
+.Navbar-Link-Type-One>p{
+    font-size: small;
+    font-weight: 400;
+}
+.Navbar-Link-Type-One>h3{
+    font-weight: 800;
+    font-size: 14px;
+}
+.Navbar-Link-Type-Two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.Navbar-Link-Type-Two>p{
+    margin-left: 10px;
+}
