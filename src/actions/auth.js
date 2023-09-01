@@ -6,7 +6,7 @@ export const signup = (data, navigate) => async (dispatch) => {
     const newdata = newData?.data;
     dispatch({ type: "AUTH", newdata });
 
-    navigate("/Auth");
+    navigate("/");
   } catch (error) {
     console.log(error);
   }
