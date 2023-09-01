@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API = axios.create({ baseURL: "http://localhost:5000" });
+export const API = axios.create({ baseURL: "https://amazon-server-production-ea1d.up.railway.app" });
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("Profile") !== {}) {
     req.headers.Authorization = `Bearer ${
