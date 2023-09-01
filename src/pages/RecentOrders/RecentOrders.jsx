@@ -9,7 +9,6 @@ const RecentOrders = () => {
   const [userDatabaseId, setUserDatabaseId] = useState("");
   const [myRecentOrders, setMyRecentOrders] = useState([]);
 
-const auth = useSelector((state)=>state?.authReducer);
   useEffect(() => {
     setUserDatabaseId(localStorage.getItem("Id"));
 
@@ -22,7 +21,7 @@ const auth = useSelector((state)=>state?.authReducer);
     recentOrders.then((res) =>
       setMyRecentOrders(res?.RecentOrders?.data?.RecentOrders)
     );
-  },[auth]);
+  });
 
 
   return (
