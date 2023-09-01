@@ -21,7 +21,7 @@ const RecentOrders = () => {
     recentOrders.then((res) =>
       setMyRecentOrders(res?.RecentOrders?.data?.RecentOrders)
     );
-  });
+  },[]);
 
 
   return (
